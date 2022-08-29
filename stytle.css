@@ -1,0 +1,92 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin:0 170px 170px 170px;
+}
+header{
+    text-align:center;
+    color:azure;
+    padding:2px;
+    background-color:#2e8f85;   
+}
+a{
+    text-decoration:none;
+    display: block;
+    color:azure;
+    font-size:1.2rem;
+}
+h1{
+    margin-bottom: 0;
+    font-size:45px;
+}
+.add-email{
+   position: relative;
+   
+   padding:0 25px;
+   font-size: 1.2rem;
+   display:inline-block;
+}
+.phone-link{
+    position: relative;
+    left:30px; 
+    padding:0 35px;
+    font-size: 1.2rem;
+    display:inline-block;
+}
+.middle{
+    
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    padding:20px;
+    font-size:1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(45, 45, 45);
+}
+h3{
+    background-color:#2e8f85;
+    color:azure;
+    font-size:22px;
+    text-align: center;
+}
+.aa{
+    position: relative;
+    display: inline-block;
+    color:rgb(111, 111, 111);
+}
+.middle-left{
+    width: 40%;
+    line-height:2;
+}
+.middle-left div{
+   margin-top:30px;
+   
+}
+.middle-left p{
+    text-align:left;
+    line-height:2;
+}
+/* .middle-left li span {
+    position: relative;
+    left:-90px;
+    line-height:2;
+} */
+.middle-right{
+    width: 50%;
+    line-height:2;
+}
+.middle-right p{
+    text-align:left;
+    line-height:2;
+}
+/* .middle-right li span{
+    position: relative;
+    left:-20px;
+    line-height:2;
+} */
+footer{
+    text-align: center;
+}
+.extra p {
+    margin-top:0;
+}
